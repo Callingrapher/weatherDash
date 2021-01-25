@@ -1,20 +1,68 @@
 /*Coupon Search Custom CSS*/
 
+html, 
+body {
+    background-size: 100% 100%;
+    height: 100%;
+}
+
 header {
     background-color: rgb(99, 98, 94);
     border: solid black 1px;
 }
 
-grid-container {
-    background-color: rgb(120, 243, 167);
-    border: solid rgb(70, 68, 68) 1px;
+body {
+    /* max-width: 100%; */
+    margin-bottom: 100px;
+}
+
+form {
+    margin-left: 20px;
 }
 
 footer {
+    margin-top: 10px;
     width: 100%;
-    background-color: rgb(164, 210, 250);
+    height: 75px; 
+    background-color: rgb(223, 234, 245);
     border: solid rgb(99, 96, 96) 1px;
     float: bottom;
+    position: fixed;
+    bottom: 0;
+}
+
+section {
+    margin-bottom: 100px;
+    display: inline-block;
+}
+
+.sideBar {
+    background-color: rgb(57, 71, 119);
+    border: solid rgb(70, 68, 68) 1px;
+    float: left;
+    width: 25%;
+    /* display: inline-block; */
+}
+
+.contentArea {
+    /* display: inline-block; */
+}
+
+img {
+    position: fixed;
+    /* top: 0; */
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h2 {
@@ -26,14 +74,17 @@ p {
     text-align: center;
 }
 
+#wrapper {
+    height: auto !important;
+    margin-bottom: -75px;
+}
+
+#wrapper:after {
+    content: "";
+    display: block;
+    height: 75px;
+}
+
 #searchCity {
     border: 2px solid rgb(107, 106, 104);
-}
-
-#Results {
-    border: 2px solid orange;
-}
-
-#searchByBrand {
-        border: 2px solid orange;
 }
