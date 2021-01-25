@@ -1,0 +1,39 @@
+/*Coupon Search Custom CSS*/
+
+header {
+    background-color: rgb(99, 98, 94);
+    border: solid black 1px;
+}
+
+grid-container {
+    background-color: rgb(120, 243, 167);
+    border: solid rgb(70, 68, 68) 1px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(164, 210, 250);
+    border: solid rgb(99, 96, 96) 1px;
+    float: bottom;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+#searchCity {
+    border: 2px solid rgb(107, 106, 104);
+}
+
+#Results {
+    border: 2px solid orange;
+}
+
+#searchByBrand {
+        border: 2px solid orange;
+}
