@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <title>Weather Dashboard</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -9,44 +10,37 @@
     <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
   </head>
 
-  <header>
-    <h1>Weather Dashboard</h1>
-  </header>
+  <body id="wrapper">
 
-   <body>
+    <header>
+      <h1>Weather Dashboard</h1>
+    </header>
 
+    <div id="bg">
+      <img src="assets/images/dirigible.png">
+    </div>
 
-    <section class="sideBar">
-      <div class="grid-x">
-        <div class="cell medium-6 large-4 frame">Search for a City
-          <button id="btnSearch">Search</button>
-          <form id="citySearch">
-            <div class="grid-container">
-              <div class="grid-x grid-padding-x">
-                <div class="medium-6 cell">
+    <section class="sideBar row">
+        <div class="cell medium-6 large-4 frame">
+          <form id="citySearch">Search for a city
+            <div class="container">
+            <button id="btnSearch" type="submit" value="reset"><span class="fa fa-search"></span></button>
                   <label>
                     <input type="text" placeholder="Search for City">
                   </label>
                 </div>
-              </div>
-            </div>
           </form>
         </div>
-      </div>
       <p class="row" id="search-history"></p>
     </section>
 
     <section class="contentArea">
-      <div class="cell medium-6 large-4 frame">
-        <form>
-          <div class="grid-container">
-            <div class="grid-x grid-padding-x">
-              <div class="medium-6 cell">
-              </div>
-            </div>
-          </div>
-        </form>
+      <div id="bg">
+        <img src="assets/images/dirigible.png">
       </div>
+     <a class="current">
+       
+     </a>
     </section>
 
   </body>
