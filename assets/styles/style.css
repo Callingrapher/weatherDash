@@ -32,7 +32,8 @@ footer {
 }
 
 section {
-    margin-bottom: 100px;
+   
+    /* margin-bottom: 100px; */
     display: inline-block;
 }
 
@@ -41,6 +42,7 @@ section {
     border: solid rgb(70, 68, 68) 1px;
     float: left;
     width: 25%;
+    height: 100%;
     /* display: inline-block; */
 }
 
@@ -63,6 +65,11 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
 }
 
 h2 {

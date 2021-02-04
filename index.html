@@ -24,22 +24,35 @@
         <div class="cell medium-6 large-4 frame">
           <form id="citySearch">Search for a city
             <div class="container">
-            <button id="btnSearch" type="submit" value="reset"><span class="fa fa-search"></span></button>
-                  <label>
-                    <input type="text" placeholder="Search for City">
-                  </label>
-                </div>
+              <label>
+                <input type="text" placeholder="Search for City">
+              </label>
+              <button id="btnSearch" type="submit" value="reset"><span class="fa fa-search"></span></button>
+            </div>
           </form>
         </div>
       <p class="row" id="search-history"></p>
     </section>
 
     <section class="contentArea">
-      <div id="bg">
-        <img src="assets/images/dirigible.png">
-      </div>
+      
      <a class="current">
-       
+      <div></div>
+      <div class="col-sm-8" id="result">
+          <div class="row" id="no-gutters">
+              <div class="weather-display">
+                  <div id="current"></div>
+                  <div id="info-current"></div>
+              </div>
+          </div>
+
+          <div class="row" id="no-gutters">
+              <div class="forecast">
+                  <div class="forecast-head"></div>
+                  <div class="five-day"></div>
+              </div>
+          </div>
+      </div>
      </a>
     </section>
 
@@ -47,10 +60,9 @@
 
   <footer>
     <h2>Made with ❤️️</h2>
-        <p>
-            &copy; 2021 Callingrapher (Matthew Eggleston), all rights reserved.
-        </p>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src=""></script>
-  <script src="assets/scripts/script.js"></script>
-  </html> 
+  <script type="text/javascript" src="assets/scripts/script.js"></script>
+</html> 
